@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    h4{
+      font-size: 20px;
+    }
+    
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+    background-color:#ffffff;
+  }
+
+  .escudo-header img {
+    width: 70px;
+  }
+
+  nav {
+    flex: auto;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  nav a {
+    color: #171717;
+    text-decoration: none;
+    margin-left: 20px;
+
+  }
+
+  nav a:hover{
+    color: #17467c;
+  }
+
+  .rrss img {
+    width: 25px;
+    margin: 3px;
+  }
+
+  /*BODY*/
+
+.hero{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: #ffffff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(/assets/images/estadio-gs.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    button{
+        margin-top: 25px;
+        padding: 10px 20px;
+    }
+}    
+
+
+.hero h1{
+    padding: 300px 0px 0px 0px;
+}
+    
+.hero p{
+    font-size: 25px;
+}
+
+.container{
+  display: flex;
+  padding: 100px 80px;
+  justify-content: center;
+
+}
+
+.container .card-icono{
+  display: block;
+  flex: auto;
+}
+
+.container .card-icono h4{
+  text-align: center;
+}
+
+.container .card-icono img{
+  width: 80px;
+  padding-bottom: 20px;
+  padding-left: 130px;
+}
+
+main{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+main div h2{
+  padding-bottom: 30px;
+}
+
+main div p{
+  margin: 0px 80px;
+}
+
+.banner img{
+  max-width: 80%;
+  height: auto;
+  margin-right: 80px;
+  padding-bottom: 100px;
+}
+
+footer{
+  text-align: center;
+  background-color: darkgrey;
+  padding: 20px;
+}
+
+footer div{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p{
+  font-size: 14px;
+  padding: 0px 80px;
+}
+
+footer a{
+  color: #17467c;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+footer nav a{
+  color: #171717;
+  text-decoration: none;
+  font-size: 16px;
+}
